@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,72 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
-<body>
 
+<body>
+    <header class="header contenedor">
+        <div class="header__logo">
+            <a href="index.html">
+                <picture>
+                    <source srcset="build/img/logo.avif" type="image/avif">
+                    <source srcset="build/img/logo.webp" type="image/webp">
+                    <img loading="lazy" src="build/img/logo.jpg" alt="logo metti">
+                </picture>
+            </a>
+        </div>
+        <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--crear" href="#">Crear grupo</a>
+            <a class="navegacion__enlace" href="#">Iniciar Sesión</a>
+            <a class="navegacion__enlace" href="#">Registrarse</a>
+        </nav>
+    </header>
+    <main class="meeti">
+        <h2 class="meeti__heading">Headless WordPress con Next.Js</h2>
+        <div class="meeti__grid contenedor">
+            <div class="meeti__contenido">
+                <picture class="meeti__contenedor">
+                    <source srcset="build/img/meeti.avif" type="image/avif">
+                    <source srcset="build/img/meeti.webp" type="image/webp">
+                    <img loading="lazy" class="meeti__imagen" src="build/img/meeti.jpg" alt="imagen meeti">
+                </picture>
+                <div class="meeti__informacion">
+                    <p class="meeti__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, similique.
+                        Laborum, ex fugiat iusto rerum aspernatur repudiandae veniam architecto aliquid nulla! Enim
+                        doloremque voluptatibus eius alias at necessitatibus ex quibusdam! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Architecto et earum minima nihil praesentium voluptates
+                        voluptatibus perferendis labore, officiis fugiat expedita! Qui eius, nulla quia voluptas
+                        repellendus magni itaque! Magnam!</p>
+                    <p class="meeti__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, similique.
+                        Laborum, ex fugiat iusto rerum aspernatur repudiandae veniam architecto aliquid nulla! Enim
+                        doloremque voluptatibus eius alias at necessitatibus ex quibusdam! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Architecto et earum minima nihil praesentium voluptates
+                        voluptatibus perferendis labore, officiis fugiat expedita! Qui eius, nulla quia voluptas
+                        repellendus magni itaque! Magnam!</p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <picture class="sidebar__contenedor">
+                    <source srcset="build/img/mapa.avif" type="image/avif">
+                    <source srcset="build/img/meeti.webp" type="image/webp">
+                    <img loading="lazy" class="sidebar__imagen" src="build/img/meeti.jpg" alt="imagen mapa">
+                </picture>
+                <div class="sidebar__contenido">
+                    <h3 class="sidebar__heading">Infomación Meeti</h3>
+                    <p class="sidebar__fecha"><span>Fecha:</span> 30 de Diciembre del 2022</p>
+                    <p class="sidebar__hora"><span>Hora:</span> 20:30</p>
+                    <p class="sidebar__ubicacion"><span>Ubicación:</span> Av. Vallarta 3033</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer contenedor">
+        <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--crear" href="#">Crear grupo</a>
+            <a class="navegacion__enlace" href="#">Iniciar Sesión</a>
+            <a class="navegacion__enlace" href="#">Registrarse</a>
+        </nav>
+        <p class="footer__copyright">Pagina hecha por Josué Palma - 2022 (Curso de Juan Pablo De la torre)</p>
+    </footer>
 </body>
+
 </html>
